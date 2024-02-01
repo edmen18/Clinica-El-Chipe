@@ -1,0 +1,147 @@
+﻿<%@ Master Language="VB" CodeFile="PaginaMaestraPrincipal.master.vb" Inherits="PaginaMaestra" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title>Clínica El Chipe</title>
+<link href="../Estilo.css" rel="stylesheet" type="text/css" />        
+       
+    <style type="text/css">
+        .style21
+        {
+            width: 56px;
+        }
+        .style22
+        {
+            color: black;
+            font-weight: bold;
+            font-size: large;
+            width: 1178px;
+        }
+    </style>
+       
+</head>
+<body>
+
+ <form id="form2" runat="server">
+    <asp:Panel ID="Panel1" runat="server" CssClass="style1">            
+      <table cellpadding="0" cellspacing="0" class="style2">
+       <tr bgcolor="404E7B">
+         <td class="style21">
+            <img id="Clinica" runat="server" alt="" src="../Imagenes/LogoClinica.jpg"                                     
+            style="width: 107px; height: 103px; margin-left: 18px; margin-top: 5px;"/>
+         </td>
+         <td class="style7" bgcolor="#404E7B" align="center">
+            CLÍNICA EL CHIPE
+           
+           <table cellpadding="0" cellspacing="0" style="margin-top: 31px">
+             <tr>
+               <td bgcolor="White">
+                   <asp:ImageButton ID="ImageButton1" runat="server" 
+                       ImageUrl="~/Imagenes/Inicio.gif" 
+                       PostBackUrl="~/WFPrincipal/PaginaPrincipal.aspx" /> 
+               </td>
+               <td bgcolor="White">
+                <asp:Menu ID="Menu1" runat="server" Height="16px" Orientation="Horizontal" 
+                   Width="545px" DynamicHorizontalOffset="2" Font-Size="10pt" 
+                   Font-Bold="False" BorderColor="#FF6600" BorderStyle="Solid" BorderWidth="1px" 
+                       DynamicVerticalOffset="2" ScrollDownImageUrl="~/Iconos/08.png" 
+                       StaticSubMenuIndent="10px" style="margin-bottom: 0px">
+                    <DynamicHoverStyle BackColor="White" BorderColor="#404E7B" />
+                    <DynamicMenuItemStyle BackColor="#E8E8E8" BorderStyle="Solid" 
+                        BorderWidth="3px" />
+                  <Items>
+                       <asp:MenuItem Text="Nosotros" Value="Nosotros" ImageUrl="~/Iconos/04.png">
+                           <asp:MenuItem ImageUrl="~/Imagenes/Mision.png" Selected="True" 
+                               SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Misión " Value="Misión">
+                           </asp:MenuItem>
+                           <asp:MenuItem ImageUrl="~/Imagenes/vvv.jpg" 
+                               SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Visión" Value="Visión">
+                           </asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Historia" 
+                               Value="Historia" ImageUrl="~/Iconos/b_045.png"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Valores" 
+                               Value="Valores" ImageUrl="~/Imagenes/Valores.jpg"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" 
+                               Text="Políticas de Calidad" Value="Políticas de Calidad" 
+                               ImageUrl="~/Imagenes/Calidad.jpg"></asp:MenuItem>
+                       </asp:MenuItem>
+                       <asp:MenuItem Text="Atencion al Paciente" Value="Atencion al Paciente">
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Cómo llegar" 
+                               Value="Cómo llegar"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" 
+                               Text="Plano interactivo" Value="Plano interactivo"></asp:MenuItem>
+                       </asp:MenuItem>
+                       <asp:MenuItem Text="Consultar" Value="Mi Médico">
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Médico" 
+                               Value="Médico"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" 
+                               Text="Directorio Telefónico" Value="Directorio Telefónico"></asp:MenuItem>
+                       </asp:MenuItem>
+                       <asp:MenuItem Text="Servicios" Value="Servicios">
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Consultas" 
+                               Value="Consultas"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" 
+                               Text="Hospitalización" Value="Hospitalización"></asp:MenuItem>
+                           <asp:MenuItem SeparatorImageUrl="~/Imagenes/Separador.jpg" Text="Emergencia" 
+                               Value="Emergencia"></asp:MenuItem>
+                       </asp:MenuItem>
+                   </Items>
+                 </asp:Menu>              
+               </td>                
+              </tr>                       
+            </table>          
+         </td>                   
+         <td class="style8" bgcolor="404E7B">
+           <table cellpadding="0" cellspacing="0">
+             <tr>                       
+               <td align="center" class="style4" valign="middle">
+                <img id="Img5" runat="server" align="middle" alt="" 
+                 src="../Imagenes/Medicos.jpg"
+                 style="width: 106px; height: 96px" />                 
+                </td>
+              </tr>                
+           </table>
+         </td>
+      </tr>
+    </table>
+    
+    <table cellpadding="0" cellspacing="0" class="style3" 
+            style="border: thin solid #000000">
+      <tr>
+        <td bgcolor="White">
+         <div>
+         
+         
+           <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+            
+           </asp:ContentPlaceHolder>                  
+         </div>        
+        </td>                
+      </tr>
+    </table>
+    
+    <table id="PiePagina" cellpadding="0" cellspacing="0" class="style9">
+      <tr>
+        <td align="center" bgcolor="#6F81FF" class="style22" 
+              style="border: thin solid #000000">
+           Av. Chirichigno 321 Urb. El Chipe – Piura Teléfonos 32-9198 - 307535      
+        </td>
+      </tr>
+    </table>
+    
+    <table id="PiePagina0" cellpadding="0" cellspacing="0" class="style4">
+      <tr>
+        <td align="center" bgcolor="404E7B" class="style10" style="border: thin solid #000000">
+         <asp:Label ID="LblFecha" runat="server" Font-Bold="True" ForeColor="White" 
+         style="text-align: left"></asp:Label>
+        </td>
+      </tr>
+    </table>
+    
+   </asp:Panel>
+  </form> 
+</body>
+</html>

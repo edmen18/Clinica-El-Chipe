@@ -1,0 +1,178 @@
+UL.MenuBarHorizontal {
+	BORDER-BOTTOM-COLOR: #ccc; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-COLOR: #ccc; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; FONT-FAMILY: "Arial Narrow"; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: auto; BORDER-RIGHT-COLOR: #ccc; FONT-SIZE: 100%; BORDER-LEFT-COLOR: #ccc; BORDER-LEFT-WIDTH: 0px; CURSOR: default; PADDING-TOP: 0px
+}
+UL.MenuBarActive {
+	Z-INDEX: 1000
+}
+UL.MenuBarHorizontal LI {
+	POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 9.8em; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 100%; CURSOR: pointer; PADDING-TOP: 0px
+}
+UL.MenuBarHorizontal UL {
+	Z-INDEX: 1020; POSITION: absolute; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 9em; PADDING-RIGHT: 0px; FONT-SIZE: 100%; CURSOR: default; PADDING-TOP: 0px; LEFT: -1000em
+}
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible {
+	LEFT: auto
+}
+UL.MenuBarHorizontal UL LI {
+	WIDTH: 9em
+}
+UL.MenuBarHorizontal UL UL {
+	POSITION: absolute; MARGIN: -5% 0px 0px 95%
+}
+UL.MenuBarHorizontal UL.MenuBarSubmenuVisible UL.MenuBarSubmenuVisible {
+	TOP: 0px; LEFT: auto
+}
+UL.MenuBarHorizontal UL {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+UL.MenuBarHorizontal A {
+	PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #65c7ff; PADDING-LEFT: 0.75em; PADDING-RIGHT: 0.75em; DISPLAY: block; COLOR: #333; CURSOR: pointer; TEXT-DECORATION: none; PADDING-TOP: 0.5em
+}
+UL.MenuBarHorizontal A:hover {
+	BACKGROUND-COLOR: #33c; COLOR: #fff
+}
+UL.MenuBarHorizontal A:focus {
+	BACKGROUND-COLOR: #33c; COLOR: #fff
+}
+UL.MenuBarHorizontal A.MenuBarItemHover {
+	BACKGROUND-COLOR: #268ee3; COLOR: #fff
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenuHover {
+	BACKGROUND-COLOR: #268ee3; COLOR: #fff
+}
+UL.MenuBarHorizontal A.MenuBarSubmenuVisible {
+	BACKGROUND-COLOR: #268ee3; COLOR: #fff
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenu {
+	BACKGROUND-IMAGE: url(SpryMenuBarDown.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenu {
+	BACKGROUND-IMAGE: url(SpryMenuBarRight.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal A.MenuBarItemSubmenuHover {
+	BACKGROUND-IMAGE: url(SpryMenuBarDownHover.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal UL A.MenuBarItemSubmenuHover {
+	BACKGROUND-IMAGE: url(SpryMenuBarRightHover.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 95% 50%
+}
+UL.MenuBarHorizontal IFRAME {
+	Z-INDEX: 1010; POSITION: absolute; FILTER: alpha(opacity:0.1)
+}
+
+@media Screen, Projection    
+{
+UL.MenuBarHorizontal LI.MenuBarItemIE {
+	DISPLAY: inline; BACKGROUND: #fff; FLOAT: left
+}
+    }
+#baner {
+	BACKGROUND-IMAGE: url(../Imagenes/fond_libro_recla.jpg); MARGIN: 0px auto; WIDTH: 950px; HEIGHT: 130px; COLOR: #000; FONT-SIZE: 16px
+}
+#cuerpo_index {
+	MARGIN: 0px auto; WIDTH: 950px; HEIGHT: 440px
+}
+#cuerpo_vison {
+	MARGIN: 0px auto; WIDTH: 840px; HEIGHT: 200px
+}
+#cuerpo_historia {
+	MARGIN: 0px auto; WIDTH: 840px; HEIGHT: 400px
+}
+#cuerpo_organigrama {
+	MARGIN: 0px auto; WIDTH: 700px; HEIGHT: 600px
+}
+#cuerpo_directorio {
+	MARGIN: 0px auto; WIDTH: 840px; HEIGHT: 2000px
+}
+#cuerpo_servicios {
+	MARGIN: 0px auto; WIDTH: 950px; HEIGHT: 430px
+}
+#galeria {
+	MARGIN: 0px auto; WIDTH: 600px; HEIGHT: 450px
+}
+#generales {
+	MARGIN: 0px auto; WIDTH: 800px; HEIGHT: 250px
+}
+#cuerpo_servicios P STRONG {
+	FONT-FAMILY: Arial Narrow
+}
+#cuerpo_servicios P STRONG {
+	COLOR: #ffffff; FONT-SIZE: 24px
+}
+.ghjhj {
+	FONT-FAMILY: Arial Narrow
+}
+#cuerpo_servicios #id21 .rre .ghjhj {
+	COLOR: #004080
+}
+#admin_kolther {
+	MARGIN: 0px auto; WIDTH: 950px; HEIGHT: 410px
+}
+.cuerpo_saneamiento {
+	BACKGROUND-IMAGE: url(../Imagenes/fon_index.jpg); WIDTH: 960px; HEIGHT: 410px
+}
+#baner .cuerpo_saneamiento TABLE TR TD DIV {
+	COLOR: #004080
+}
+#baner .cuerpo_saneamiento TABLE TR TD DIV {
+	FONT-FAMILY: Arial Narrow
+}
+#baner .cuerpo_saneamiento TABLE TR TD {
+	FONT-FAMILY: Copperplate Gothic Bold
+}
+#baner .cuerpo_saneamiento TABLE TR TD {
+	COLOR: #004080
+}
+.cuerpo_servi {
+	BACKGROUND-IMAGE: url(../Imagenes/fon_index.jpg); WIDTH: 960px; HEIGHT: 410px
+}
+#baner .cuerpo_servi TABLE TR TD DIV {
+	FONT-FAMILY: Arial Narrow
+}
+#baner .cuerpo_servi TABLE TR TD DIV {
+	COLOR: #004080
+}
+#baner .cuerpo_servi TABLE TR TD {
+	FONT-FAMILY: Copperplate Gothic Bold
+}
+#baner .cuerpo_servi TABLE TR TD {
+	COLOR: #004080
+}
+.cuerpo_serv_fin {
+	BACKGROUND-IMAGE: url(../Imagenes/fondo_arganigrama.jpg); WIDTH: 950px; HEIGHT: 700px
+}
+#baner .cuerpo_serv_fin TABLE TR TD P {
+	FONT-FAMILY: Arial Narrow
+}
+#baner .cuerpo_serv_fin TABLE TR TD P {
+	COLOR: #004080
+}
+#baner .cuerpo_serv_fin TABLE TR TD {
+	FONT-FAMILY: Copperplate Gothic Bold
+}
+.servicios_gene {
+	BACKGROUND-IMAGE: url(../Imagenes/fon_index.jpg); WIDTH: 960px; HEIGHT: 410px
+}
+#baner .servicios_gene TABLE TR TD DIV {
+	FONT-FAMILY: Arial Narrow
+}
+#baner .servicios_gene TABLE TR TD DIV {
+	COLOR: #004080
+}
+#baner .servicios_gene TABLE TR TD {
+	FONT-FAMILY: Copperplate Gothic Bold
+}
+#baner .servicios_gene TABLE TR TD {
+	COLOR: #004080
+}
+.serv_inter {
+	BACKGROUND-IMAGE: url(../Imagenes/fondo_arganigrama.jpg); WIDTH: 950px; HEIGHT: 700px; FONT-WEIGHT: bolder
+}
+#baner .serv_inter TABLE TR TD P {
+	COLOR: #004080
+}
+#baner .serv_inter TABLE TR TD P {
+	FONT-FAMILY: Arial Narrow
+}
+#baner .serv_inter TABLE TR TD {
+	FONT-FAMILY: Copperplate Gothic Bold
+}

@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77314779-A425-4903-89B7-517F3FEF42B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Reportes</RootNamespace>
+    <AssemblyName>Reportes</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Reportes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Reportes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_EvolMedica.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_EvolMedica.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_EvolEnfermeria.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_EvolEnfermeria.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_InformeMedico.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_InformeMedico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_perinatal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_perinatal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_prescripcion.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_prescripcion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Hospitalizacion\Cr_ReporteOperatorio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_ReporteOperatorio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloAdmision\CrAperturaHC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrAperturaHC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloCaja\Cr_detalle.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_detalle.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloCaja\Cr_ventas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_ventas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloCaja\Cr_VentasXComprobante.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_VentasXComprobante.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloCaja\Cr_VentasxFecha.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_VentasxFecha.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\ModuloProgramacionMedica\CrPMDiario.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPMDiario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\Hospitalizacion\Ds_evolucion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_evolucion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\Hospitalizacion\Ds_InformeAlta.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_InformeAlta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\Hospitalizacion\Ds_Parto.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_Parto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\Hospitalizacion\Ds_prescripcion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_prescripcion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\Hospitalizacion\Ds_ReporteOperatorio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_ReporteOperatorio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloAdmision\DsAperturaHC.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsAperturaHC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloAdmision\DsAperturaHC.vb">
+      <DependentUpon>DsAperturaHC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloCaja\Ds_cabecera.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_cabecera.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloCaja\Ds_cabecera.vb">
+      <DependentUpon>Ds_cabecera.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloCaja\Ds_ReportesVentas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ds_ReportesVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloProgramacionMedica\DsPMDiaria.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPMDiaria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ModuloProgramacionMedica\DsPMDiaria.vb">
+      <DependentUpon>DsPMDiaria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_EvolMedica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_EvolMedica.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_EvolEnfermeria.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_EvolEnfermeria.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_InformeMedico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_InformeMedico.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_perinatal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_perinatal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_prescripcion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_prescripcion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Hospitalizacion\Cr_ReporteOperatorio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_ReporteOperatorio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloAdmision\CrAperturaHC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrAperturaHC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloCaja\Cr_detalle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_detalle.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloCaja\Cr_ventas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_ventas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloCaja\Cr_VentasXComprobante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_VentasXComprobante.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloCaja\Cr_VentasxFecha.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_VentasxFecha.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\ModuloProgramacionMedica\CrPMDiario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPMDiario.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet\Hospitalizacion\Ds_evolucion.xsc">
+      <DependentUpon>Ds_evolucion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_evolucion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_evolucion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_evolucion.xss">
+      <DependentUpon>Ds_evolucion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_InformeAlta.xsc">
+      <DependentUpon>Ds_InformeAlta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_InformeAlta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_InformeAlta.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_InformeAlta.xss">
+      <DependentUpon>Ds_InformeAlta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_Parto.xsc">
+      <DependentUpon>Ds_Parto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_Parto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_Parto.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_Parto.xss">
+      <DependentUpon>Ds_Parto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_prescripcion.xsc">
+      <DependentUpon>Ds_prescripcion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_prescripcion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_prescripcion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_prescripcion.xss">
+      <DependentUpon>Ds_prescripcion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_ReporteOperatorio.xsc">
+      <DependentUpon>Ds_ReporteOperatorio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_ReporteOperatorio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_ReporteOperatorio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\Hospitalizacion\Ds_ReporteOperatorio.xss">
+      <DependentUpon>Ds_ReporteOperatorio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloAdmision\DsAperturaHC.xsc">
+      <DependentUpon>DsAperturaHC.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloAdmision\DsAperturaHC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsAperturaHC.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\ModuloAdmision\DsAperturaHC.xss">
+      <DependentUpon>DsAperturaHC.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_cabecera.xsc">
+      <DependentUpon>Ds_cabecera.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_cabecera.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_cabecera.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_cabecera.xss">
+      <DependentUpon>Ds_cabecera.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_ReportesVentas.xsc">
+      <DependentUpon>Ds_ReportesVentas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_ReportesVentas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ds_ReportesVentas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\ModuloCaja\Ds_ReportesVentas.xss">
+      <DependentUpon>Ds_ReportesVentas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloProgramacionMedica\DsPMDiaria.xsc">
+      <DependentUpon>DsPMDiaria.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ModuloProgramacionMedica\DsPMDiaria.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPMDiaria.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\ModuloProgramacionMedica\DsPMDiaria.xss">
+      <DependentUpon>DsPMDiaria.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CrystalReports\Mantenimiento\" />
+    <Folder Include="CrystalReports\ModuloArchivo\" />
+    <Folder Include="CrystalReports\ModuloConsultorio\" />
+    <Folder Include="DataSet\Mantenimiento\" />
+    <Folder Include="DataSet\ModuloArchivo\" />
+    <Folder Include="DataSet\ModuloConsultorio\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

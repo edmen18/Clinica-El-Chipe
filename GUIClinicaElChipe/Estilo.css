@@ -1,0 +1,638 @@
+﻿/*
+  Document   : Hoja de Estilo
+  Author     : Juan Carlos Mendoza Mendivesa
+*/
+
+/*Estilos del cuerpo de la Pagina*/
+body
+{
+}
+/*Estilos de las Páginas del Sistema*/
+ #form1
+{
+   
+}
+.style1
+{
+	width: 1148px;
+	position: absolute;
+	top: 15px;
+	left: 55px;
+	height: 646px;
+}
+.style2
+{
+	width: 100%; 
+	height: 111px;
+}
+.style3
+{
+	width: 100%;
+	height: 484px;
+	background-color: #336699;
+	border-left-style: none;
+	border-left-width: thin;
+	border-right-style: none;
+	border-right-width: thin;
+	border-top-style: none;
+	border-top-width: 0%;
+	border-bottom-style: none;
+	border-bottom-width: 0%;
+}
+.style4
+{
+	width: 100%; 
+	height: 28px;
+}
+.style5
+{
+	width: 93px;
+}
+.style6
+{
+	background-color: #99CCFF;
+	height: 160px;
+}
+.style7
+{
+	color: #FFFFFF;
+	width: 637px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+.style8
+{
+ width: 110px;
+           
+}
+.style9
+{
+ width: 1148px;
+}
+.style10
+{
+color: black;
+font-weight: bold;
+font-size: large;
+width: 778px;
+ }
+
+.style11
+{
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	margin-left: 3px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	}
+.style12
+{
+	background-color: #99CCFF;
+	height: 492px;
+}
+
+.style13
+{
+	border: 0 none;
+	margin: 0px 0 0 17px;
+	width: 1000px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #0054A8;
+}
+.style19
+{
+	background-color: #A3ACFF;
+	height: 510px;
+}
+.style14
+{
+	margin: 0px 0 0 18px;
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	
+}
+.style15
+{
+	margin: 0px 0 0 1px;
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	
+}
+.style16
+{
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+/*Para los formularios de mantenimiento*/
+.style17
+{
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	margin-left: 3px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.style18
+{
+	border: 0 none;
+	width: 955px;
+	list-style: none;
+	height: 26px;
+	border: 1px solid #eee;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-color: #DBEFF7;
+	margin-left: 3px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	}
+
+.style20
+{
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	height: 510px;
+	vertical-align: middle;
+}
+
+.Mayuscula
+{
+	text-transform: uppercase;
+}
+
+
+ul#menu
+{
+	/*  width: 500px;*/ /*For KHTML*/
+	width: 900px;
+	height: 31px;
+}
+
+ul#menu li
+{
+	float: left;
+	display: inline;
+	position: relative;
+	height: 100px;
+}
+
+/*
+ul#menu li{
+	padding-bottom:5px;
+	top: 0px;
+	left: 2px;
+}
+
+ul#menu ul
+{
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	width: 160px;
+	list-style: none;
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	border: none;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+
+ul#menu ul:after {
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#menu ul li {
+  width: 160px;
+  float: left; 
+  display: block !important;
+  display: inline; 
+}
+
+
+ul#menu a
+{
+	padding: 5px 15px 5px;
+	float: none !important; 
+	float: left; 
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold; 
+	text-decoration: none;
+	height: auto !important;
+	height: 1%;
+}
+
+
+ul#menu a:hover,
+ul#menu li:hover a,
+ul#menu li.iehover a {
+color: #003300;
+
+}
+
+
+ul#menu li:hover li a,
+ul#menu li.iehover li a {
+  float: none;
+  border:none;
+}
+
+
+ul#menu li:hover li a:hover, ul#menu li:hover li:hover a, ul#menu li.iehover li a:hover, ul#menu li.iehover li.iehover a
+{
+	background: #99FFCC;
+	color: #003300;
+}
+
+
+ul#menu li:hover li:hover li a,
+ul#menu li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+
+
+ul#menu li:hover li:hover li a:hover,
+ul#menu li:hover li:hover li:hover a,
+ul#menu li.iehover li.iehover li a:hover,
+ul#menu li.iehover li.iehover li.iehover a {
+background:#ddd;
+  color: #FFF;
+}
+
+
+ul#menu li:hover li:hover li:hover li a,
+ul#menu li.iehover li.iehover li.iehover li a {
+background:#ddd;
+  color: #666;
+}
+
+ul#menu li:hover li:hover li:hover li a:hover,
+ul#menu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#menu ul ul,
+ul#menu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+
+ul#menu li:hover ul ul,
+ul#menu li:hover ul ul ul,
+ul#menu li.iehover ul ul,
+ul#menu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#menu li:hover ul,
+ul#menu ul li:hover ul,
+ul#menu ul ul li:hover ul,
+ul#menu li.iehover ul,
+ul#menu ul li.iehover ul,
+ul#menu ul ul li.iehover ul {
+  display: block;
+}
+ul#menu .selected{
+	color: #003300;
+}
+*/
+
+.opciones {
+	padding: 15px 0px 0px 0px;
+	/*background-color:#1C1C1C;*/
+	height: 30px;
+	float: right;
+}
+
+
+.jcarousel-skin-belen .jcarousel-container
+{
+	border-bottom: #346f97 0px solid;
+	border-left: #346f97 0px solid;
+	display: block !important;
+	background: none transparent scroll repeat 0% 0%;
+	border-top: #346f97 0px solid;
+	border-right: #346f97 0px solid;
+	-moz-border-radius: 10px;
+}
+.jcarousel-skin-belen .jcarousel-direction-rtl
+{
+	direction: rtl;
+}
+.jcarousel-skin-belen .jcarousel-container-horizontal
+{
+	padding-bottom: 0px;
+	padding-left: 40px;
+	width: 900px;
+	padding-right: 40px;
+	padding-top: 0px;
+}
+.jcarousel-skin-belen .jcarousel-clip-horizontal
+{
+	width: 900px;
+	height: 86px;
+}
+.jcarousel-skin-belen .jcarousel-item
+{
+	width: 202px;
+	height: 86px;
+}
+.jcarousel-skin-belen .jcarousel-item .crecer:hover
+{
+	width: 203px;
+	height: 85px;
+}
+.jcarousel-skin-belen .jcarousel-item-horizontal
+{
+	margin-left: 0px;
+	margin-right: 30px;
+}
+.jcarousel-skin-belen .jcarousel-direction-rtl .jcarousel-item-horizontal
+{
+	margin-left: 30px;
+	margin-right: 0px;
+}
+.jcarousel-skin-belen .jcarousel-item-placeholder
+{
+	background: none transparent scroll repeat 0% 0%;
+	color: #000;
+}
+.jcarousel-skin-belen .jcarousel-next-horizontal
+{
+	position: absolute;
+	width: 32px;
+	background: url( 'file:///D:/X_Ciclo_JuanCarlos/Desarrollo_Tesis/Tesis_MendozaMendives_JuanCarlos/Sistema/ClinicaElChipe/GUIClinicaElChipe/Imagenes/next-horizontal_b.png' ) no-repeat 0px 0px;
+	height: 32px;
+	top: 25px;
+	cursor: pointer;
+	right: 0px;
+}
+.jcarousel-skin-belen .jcarousel-direction-rtl .jcarousel-next-horizontal
+{
+	background-image: url( 'file:///D:/X_Ciclo_JuanCarlos/Desarrollo_Tesis/Tesis_MendozaMendives_JuanCarlos/Sistema/ClinicaElChipe/GUIClinicaElChipe/Imagenes/next-horizontal_b.png' );
+	right: auto;
+	left: 0px;
+}
+.jcarousel-skin-belen .jcarousel-next-horizontal:hover
+{
+	background-position: -32px 0px;
+}
+.jcarousel-skin-belen .jcarousel-next-horizontal:active
+{
+	background-position: -64px 0px;
+}
+.jcarousel-skin-belen .jcarousel-next-disabled-horizontal
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+.jcarousel-skin-belen .jcarousel-next-disabled-horizontal:hover
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+.jcarousel-skin-belen .jcarousel-next-disabled-horizontal:active
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+.jcarousel-skin-belen .jcarousel-prev-horizontal
+{
+	position: absolute;
+	width: 32px;
+	background: url( 'file:///D:/X_Ciclo_JuanCarlos/Desarrollo_Tesis/Tesis_MendozaMendives_JuanCarlos/Sistema/ClinicaElChipe/GUIClinicaElChipe/Imagenes/prev-horizontal_b.png' ) no-repeat 0px 0px;
+	height: 32px;
+	top: 25px;
+	cursor: pointer;
+	left: 0px;
+}
+.jcarousel-skin-belen .jcarousel-direction-rtl .jcarousel-prev-horizontal
+{
+	background-image: url( 'file:///D:/X_Ciclo_JuanCarlos/Desarrollo_Tesis/Tesis_MendozaMendives_JuanCarlos/Sistema/ClinicaElChipe/GUIClinicaElChipe/Imagenes/prev-horizontal_b.png' );
+	right: 0px;
+	left: auto;
+}
+.jcarousel-skin-belen .jcarousel-prev-horizontal:hover
+{
+	background-position: -32px 0px;
+}
+.jcarousel-skin-belen .jcarousel-prev-horizontal:active
+{
+	background-position: -64px 0px;
+}
+.jcarousel-skin-belen .jcarousel-prev-disabled-horizontal
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+.jcarousel-skin-belen .jcarousel-prev-disabled-horizontal:hover
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+.jcarousel-skin-belen .jcarousel-prev-disabled-horizontal:active
+{
+	background-position: -96px 0px;
+	cursor: default;
+}
+
+.pager
+{
+	z-index: 100;
+	position: relative;
+	top: -19px;
+}
+.controles {
+	POSITION: absolute; TOP: 18px; RIGHT: 10px
+}
+
+
+
+
+
+DIV#contenido-pagina {
+	BACKGROUND-COLOR: transparent; MARGIN: 15px 0px auto; HEIGHT: 100%
+}
+DIV#contenido-pagina DIV#opciones-menu {
+	BACKGROUND-COLOR: transparent; MARGIN-TOP: 15px; WIDTH: 180px; FLOAT: left
+}
+DIV#contenido-pagina DIV#opciones-menu .arriba {
+	WIDTH: 600px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; TOP: 15px
+}
+DIV#contenido-pagina DIV#opciones-menu DIV#titulomenu {
+	BORDER-BOTTOM: #ffffff 2px solid; BACKGROUND-COLOR: #007cc3; MIN-HEIGHT: 5%; VERTICAL-ALIGN: middle
+}
+DIV#contenido-pagina DIV#opciones-menu DIV#titulomenu P.raiz-menu {
+	DISPLAY: block; FONT-FAMILY: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif; COLOR: #f8c300; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+DIV#contenido-pagina DIV#opciones-menu UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; LIST-STYLE-IMAGE: none
+}
+DIV#contenido-pagina DIV#opciones-menu LI.lateral {
+	BORDER-BOTTOM: #ffffff 2px solid; PADDING-BOTTOM: 19px; BACKGROUND-COLOR: #84c225; PADDING-LEFT: 15px; PADDING-RIGHT: 45px; FONT-FAMILY: "Helvetica", Arial, Verdana, sans serif; COLOR: #006600; FONT-SIZE: 15px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 19px
+}
+DIV#contenido-pagina DIV#opciones-menu DIV.bottom-li {
+	BACKGROUND-COLOR: #84c225; WIDTH: 155px; HEIGHT: 20px
+}
+DIV#contenido-pagina DIV#opciones-menu .borde-abajo-izq {
+	POSITION: relative; WIDTH: 27px; BOTTOM: 20px; BACKGROUND: url(../imagenes/menu/corner_izq_abajo.png) no-repeat; HEIGHT: 20px; LEFT: 153px
+}
+DIV#contenido-pagina DIV#opciones-menu LI.lateral:hover {
+	PADDING-BOTTOM: 19px; MARGIN-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 45px; BACKGROUND: #698b22; COLOR: #f8c300; FONT-WEIGHT: bold; PADDING-TOP: 19px; LEFT: 0px
+}
+#opciones-menu LI.lateral:focus {
+	PADDING-BOTTOM: 19px; MARGIN-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 45px; BACKGROUND: #698b22; COLOR: #f8c300; FONT-WEIGHT: bold; PADDING-TOP: 19px; LEFT: 0px
+}
+DIV#contenido-pagina DIV#opciones-menu LI.lateral A:link {
+	PADDING-BOTTOM: 19px; MARGIN-TOP: -10px; PADDING-LEFT: 45px; PADDING-RIGHT: 45px; DISPLAY: block; COLOR: #43433e; FONT-SIZE: 15px; RIGHT: 0px; TEXT-DECORATION: none; PADDING-TOP: 19px
+}
+#opciones-menu LI.lateral A:visited {
+	PADDING-BOTTOM: 19px; MARGIN-TOP: -10px; PADDING-LEFT: 45px; PADDING-RIGHT: 45px; DISPLAY: block; COLOR: #43433e; FONT-SIZE: 15px; RIGHT: 0px; TEXT-DECORATION: none; PADDING-TOP: 19px
+}
+DIV#contenido-pagina DIV#informacion {
+	WIDTH: 600px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 100%; MARGIN-LEFT: 210px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque {
+	TEXT-ALIGN: justify; WIDTH: auto; FONT: 16px/25px Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif; BACKGROUND: url(../imagenes/portada/fondo-texto.png) no-repeat; HEIGHT: auto; COLOR: #17365d; TOP: 5px
+}
+.titulos {
+	BACKGROUND: #84c225
+}
+.titulos SPAN#titulo {
+	TEXT-ALIGN: center; COLOR: #006600; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque SPAN#subtitulo {
+	TEXT-ALIGN: left; COLOR: #000000; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque STRONG {
+	COLOR: #006600
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque OL.lista-valores {
+	LIST-STYLE-POSITION: outside; COLOR: #006600; MARGIN-LEFT: 20px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque OL.lista-valores SPAN {
+	FONT-WEIGHT: bold
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque OL.lista-valores P {
+	DISPLAY: inline; COLOR: #000
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque BR.espaciado {
+	LINE-HEIGHT: 20px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV.imagen {
+	POSITION: relative; MARGIN: 5px 0px 5px 5px; FLOAT: right
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV.imagen IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: url(../imagenes/fondoimagen.png); FLOAT: right; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 2px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV#mapa_cbelen {
+	BORDER-BOTTOM: #007cc3 4px solid; WIDTH: 769px; FONT-FAMILY: Myriad Pro, Arial, Helvetica, sans-serif; HEIGHT: 450px; FONT-SIZE: 12px; BORDER-TOP: #007cc3 4px solid
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV#mapa_cbelen B {
+	COLOR: #006600; FONT-SIZE: 15px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV#mapa_cbelen HR {
+	MARGIN-TOP: -1px; COLOR: #007cc3
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV#mapa_cbelen P {
+	LINE-HEIGHT: 9px
+}
+DIV#contenido-pagina DIV#informacion DIV.bloque DIV#boton-chat {
+	POSITION: absolute; RIGHT: 330px
+}
+DIV#contenido-pagina DIV#informacion DIV.valores {
+	POSITION: relative; TEXT-ALIGN: justify; FONT: 13px/1.5 Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif
+}
+DIV#contenido-pagina DIV#informacion DIV.valores STRONG#valor {
+	COLOR: #006600; FONT-WEIGHT: bold
+}
+DIV#contenido-pagina DIV#menu-lateral-der {
+	POSITION: relative; WIDTH: 145px; BOTTOM: 678px; DISPLAY: inline-table; BACKGROUND: none transparent scroll repeat 0% 0%; LEFT: 836px
+}
+DIV#contenido-pagina DIV#menu-lateral-der UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+DIV#contenido-pagina DIV#menu-lateral-der UL LI {
+	BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Helvetica", Arial, Verdana, sans serif; BACKGROUND: #d0e7a2; COLOR: #006600; MARGIN-LEFT: 2px; FONT-SIZE: 10px; BORDER-TOP: #fff 1px solid; CURSOR: pointer; FONT-WEIGHT: bold; MARGIN-RIGHT: 2px; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 15px
+}
+DIV#contenido-pagina DIV#menu-lateral-der UL LI:hover {
+	BORDER-BOTTOM: #f8c300 1px solid; BORDER-LEFT: #f8c300 1px solid; BORDER-TOP: #f8c300 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #f8c300 1px solid
+}
+DIV#contenido-pagina DIV#menu-lateral-der UL LI:focus {
+	BORDER-BOTTOM: #f8c300 1px solid; BORDER-LEFT: #f8c300 1px solid; BORDER-TOP: #f8c300 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #f8c300 1px solid
+}
+
+

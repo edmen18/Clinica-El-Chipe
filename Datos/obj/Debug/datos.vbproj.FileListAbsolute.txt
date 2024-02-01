@@ -1,0 +1,45 @@
+D:\Proyectos\visual 2008\hospital\datos\bin\Debug\datos.dll
+D:\Proyectos\visual 2008\hospital\datos\bin\Debug\datos.pdb
+D:\Proyectos\visual 2008\hospital\datos\bin\Debug\datos.xml
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\datos.Resources.resources
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\datos.vbproj.GenerateResource.Cache
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\datos.dll
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\datos.xml
+D:\Proyectos\visual 2008\hospital\datos\obj\Debug\datos.pdb
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\bin\Debug\datos.dll
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\bin\Debug\datos.pdb
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\bin\Debug\datos.xml
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\ResolveAssemblyReference.cache
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\datos.Resources.resources
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\datos.vbproj.GenerateResource.Cache
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\datos.dll
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\datos.xml
+D:\XI_Ciclo_JuanCarlos\Proyecto_Tesis\Proyecto-Tesis\TesisVisualStudio\HospitalSR\Datos\obj\Debug\datos.pdb
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\bin\Debug\datos.dll
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\bin\Debug\datos.pdb
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\bin\Debug\datos.xml
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\ResolveAssemblyReference.cache
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\datos.Resources.resources
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\datos.vbproj.GenerateResource.Cache
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\datos.dll
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\datos.xml
+D:\X_Ciclo_JuanCarlos\Desarrollo_Tesis\Tesis_MendozaMendives_JuanCarlos\Sistema\HospitalSR\Datos\obj\Debug\datos.pdb
+D:\ClinicaElChipe\Datos\bin\Debug\datos.dll
+D:\ClinicaElChipe\Datos\bin\Debug\datos.pdb
+D:\ClinicaElChipe\Datos\bin\Debug\datos.xml
+D:\ClinicaElChipe\Datos\obj\Debug\ResolveAssemblyReference.cache
+D:\ClinicaElChipe\Datos\obj\Debug\datos.Resources.resources
+D:\ClinicaElChipe\Datos\obj\Debug\datos.vbproj.GenerateResource.Cache
+D:\ClinicaElChipe\Datos\obj\Debug\datos.dll
+D:\ClinicaElChipe\Datos\obj\Debug\datos.xml
+D:\ClinicaElChipe\Datos\obj\Debug\datos.pdb
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\bin\Debug\datos.dll
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\bin\Debug\datos.pdb
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\bin\Debug\datos.xml
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\ResolveAssemblyReference.cache
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\datos.Resources.resources
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\datos.vbproj.GenerateResource.Cache
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\datos.dll
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\datos.xml
+D:\DISCO_D\EDGAR\edgar_laptop\ClinicaElChipe\Datos\obj\Debug\datos.pdb
